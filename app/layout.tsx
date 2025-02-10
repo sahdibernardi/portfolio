@@ -11,14 +11,15 @@ const syne = Inter({
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://www.example.com/"),
-    title: "Portfolio template - Eldora UI",
+    title: "Sahra's Portfolio",
     description:
-    "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
+    "Sahra Di Bernardi is a full-stack Web Developer with a strong focus on front-end and user experience",
     generator: "Next.js",
-    applicationName: "Portfolio template",
+    applicationName: "Sahra's Portfolio",
+    icons: {
+        icon: '/metadata.svg'
+    },
     keywords: [
-        "Portfolio template",
-        "Eldora UI",
         "React",
         "developer",
         "frontend",
@@ -26,6 +27,8 @@ export const metadata: Metadata = {
         "react",
         "frontend developer",
         "frontend engineer",
+        "full-stack developer",
+        "full-stack engineer",
         "creative",
         "creative developer",
         "creative engineer",
@@ -34,24 +37,26 @@ export const metadata: Metadata = {
         "software developer",
         "portfolio",
         "frontend developer portfolio",
+        "full-stack developer portfolio",
         "creative developer portfolio",
         "creative engineer portfolio",
         "software developer portfolio",
         "frontend engineer portfolio",
+        "full-stack engineer portfolio"
     ],
     colorScheme: "dark",
     openGraph: {
-        title: "Portfolio template - Eldora UI",
+        title: "Portfolio - Sahra Di Bernardi",
         description:
-      "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
-        url: "https://www.eldoraui.site/",
-        siteName: "www.eldoraui.site",
+      "Sahra Di Bernardi is a full-stack Web Developer with a strong focus on front-end and user experience",
+        url: "",
+        siteName: "",
         images: [
             {
-                url: "./public/metadata.jpg",
+                url: "./public/metadata.svg",
                 width: 1200,
                 height: 630,
-                alt: "Portfolio template - Eldora UI",
+                alt: "Sahra Di Bernardi",
             },
         ],
         locale: "en-US",
@@ -59,12 +64,12 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Portfolio template - Eldora UI",
+        title: "Sahra Di Bernardi",
         description:
-      "Portfolio template - Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
-        creator: "@karthikmudunuri",
+      "Sahra Di Bernardi is a Software Engineer specialized in React/Node development",
+        creator: "@sahdibernardi",
         creatorId: "0000000000",
-        images: ["./public/metadata.jpg"],
+        images: ["./public/metadata.svg"],
     },
     robots: {
         index: true,

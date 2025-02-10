@@ -15,6 +15,9 @@ import Work from "./sections/Work";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import Tools from "./sections/Tools.tsx";
+import Education from "./sections/Education.tsx";
+import Jobs from "./sections/Jobs.tsx";
+import Video from "./sections/Video.tsx";
 
 export default function Home() {
 
@@ -67,6 +70,9 @@ export default function Home() {
                 <About />
                 <Work />
                 <Tools />
+                <Jobs />
+                <Video />
+                <Education />
                 <Contact />
                 <Footer />
             </main>
