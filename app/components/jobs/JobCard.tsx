@@ -19,7 +19,7 @@ const JobCard = ({job}: {job: Job}) => {
     return (
         <div className="mx-auto w-[100%] lg:max-w-[1200px] justify-center">
             <div className="mb-10 flex w-[100%] flex-col gap-4 leading-relaxed tracking-wide text-[#e4ded7]">
-                <AnimatedBody delay={0.2} text={job.company} className="text-3xl font-bold"/>
+                <AnimatedBody delay={0.2} text={job.company} className="text-3xl font-bold text-[#9708de]"/>
                 {job.positions.map((position) => (
                     <>
                         <br></br>

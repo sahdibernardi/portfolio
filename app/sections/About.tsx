@@ -23,7 +23,7 @@ const About = () => {
                         <AnimatedBody text="I am a highly creative problem-solver with a deep passion for entrepreneurship and technology. My true calling lies in innovation, emerging technologies, and fostering an entrepreneurial mindset." />
                         <AnimatedBody
                             delay={0.1}
-                            text="At 28 years old, I am a highly communicative professional with over 3 years of experience in the tech industry and 2 more as a Web Developer Freelancer."
+                            text="At 28 years old, I am a highly communicative professional with over 3 years of experience in the tech industry and 4 as a Web Developer Freelancer."
                         />
                         <AnimatedBody
                             delay={0.2}

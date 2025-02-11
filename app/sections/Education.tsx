@@ -18,13 +18,13 @@ const Education = () => {
                 wordSpace={"mr-[14px]"}
                 charSpace={"mr-[0.001em]"}
             />
-            <span className="text-4xl my-8 font-bold">Education</span>
+            <span className="text-4xl my-8 font-bold  text-[#9708de]">Education</span>
             <span className="text-lg">Certified AWS Cloud Practitioner (2023)</span>
             <span className="text-lg">Bachelor in Software Engineering at UNOPAR (2024)</span>
             <span className="text-lg">Software Engineering Bootcamp (2022)</span>
             <span className="text-lg">Speaker at NodeBR Brasil (NodeBR Event - 2024)</span>
             <span className="text-lg">Speaker at DevFestSul (Google Developer Event - 2022)</span>
-            <span className="text-4xl my-8 font-bold">Languages</span>
+            <span className="text-4xl my-8 font-bold  text-[#9708de]">Languages</span>
             <span className="text-lg">Portuguese (fluent - C2)</span>
             <span className="text-lg">English (fluent - C2)</span>
             <span className="text-lg">Spanish (advanced - C1)</span>
