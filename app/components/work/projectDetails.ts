@@ -1,6 +1,5 @@
 import {
     SiCss3,
-    SiFramer,
     SiHtml5,
     SiJavascript,
     SiNestjs,
@@ -11,9 +10,8 @@ import {
     SiRubyonrails,
     SiTailwindcss,
     SiTypescript,
-    SiWebgl,
 } from "react-icons/si";
-import {IconType} from "react-icons";
+import { IconType } from "react-icons";
 
 export type ProjectProps = {
   id: number;
@@ -70,6 +68,19 @@ export const projects = [
     },
     {
         id: 3,
+        name: "Website Talita Faraco Cantelli",
+        description:
+            "With LCP of 0.70s, a fast and responsive website to psychologist Talita F Cantelli",
+        technologies: [SiTypescript, SiNextdotjs, SiReact, SiTailwindcss],
+        techNames: ["TypeScript", "Next", "React", "Tailwind"],
+        techLinks: ["https://www.typescriptlang.org/", "https://nextjs.org/", "https://reactjs.org", "https://tailwindcss.com/"],
+        github: "https://github.com/sahdibernardi/talita-faraco-psicologa/",
+        demo: "https://www.psitalitafc.com.br/",
+        image: "/projects/talita.png",
+        available: true,
+    },
+    {
+        id: 4,
         name: "Truther",
         description:
             "Crypto App integrated to brazil's banking systems that allows to transform PIX into USDT and Bitcoin",
@@ -82,7 +93,7 @@ export const projects = [
         available: true,
     },
     {
-        id: 4,
+        id: 5,
         name: "BCX Corretora",
         description:
             "Crypto exchange banking system directed to long-term investments and trade",
@@ -95,7 +106,7 @@ export const projects = [
         available: true,
     },
     {
-        id: 5,
+        id: 6,
         name: "Nectus",
         description:
             "Mental health App and NGO. Focused on integral heathcare of workers",
@@ -108,7 +119,7 @@ export const projects = [
         available: true,
     },
     {
-        id: 6,
+        id: 7,
         name: "DoDoor",
         description:
             "Rental App to rent comercial spaces by hour",

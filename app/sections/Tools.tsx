@@ -15,6 +15,7 @@ import {
     SiJest,
     SiRubyonrails,
     SiGooglecloud,
+    SiTailwindcss,
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
 
@@ -44,6 +45,7 @@ const Tools = () => {
                                 <SiJavascript size={50}/>
                                 <SiReact size={50}/>
                                 <SiNextdotjs size={50}/>
+                                <SiTailwindcss size={50}/>
                                 <SiHtml5 size={50}/>
                                 <SiCss3 size={50}/>
                                 <SiRedux size={50}/>

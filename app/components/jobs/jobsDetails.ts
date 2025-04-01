@@ -6,7 +6,7 @@ export const jobs = [
             {
                 title: 'Frontend Software Engineer',
                 date: '(dec 2024 - current) - remote',
-                description: 'As a software engineer some of my key responsabilities were ...',
+                description: 'As a Frontend Software Engineer some of my key achievements were ...',
                 impact: [
                     'Reduced accounts churn by 21.3% through product remake and performance optimization',
                     'Built re-usable components on Tangram Design System',
@@ -17,7 +17,7 @@ export const jobs = [
             {
                 title: 'Full-Stack Software Engineer',
                 date: '(nov 2023 - dec 2024) - remote',
-                description: 'As a software engineer some of my key responsabilities were ...',
+                description: 'As a Full-Stack Software Engineer some of my key achievements were ...',
                 impact: [
                     'Reduced implementation time on automation by 80.7% with an agnostic system strategy',
                     'Implemented micro frontends architecture for improved modularity and scalability',
@@ -37,7 +37,7 @@ export const jobs = [
             {
                 title: 'Full-Stack Software Engineer',
                 date: '(feb 2023 - nov 2023) - hybrid',
-                description: 'As a software engineer some of my key responsabilities were ...',
+                description: 'As a Full-Stack Software Engineer some of my key achievements were ...',
                 impact: [
                     'Architected complex web applications using React.js, TypeScript, and Node.js',
                     'Improved cross-browser compatibility to over 83% through standardized development practices',
@@ -53,9 +53,9 @@ export const jobs = [
         company: 'Freelancer',
         positions: [
             {
-                title: 'Full-Stack Web Developer',
+                title: 'Full-Stack Software Engineer',
                 date: '(sept 2021 - current) - remote',
-                description: 'As a software engineer some of my key responsabilities were ...',
+                description: 'As a Full-Stack Software Engineer some of my key achievements were ...',
                 impact: [
                     'Delivered 8+ successful projects including MVP development',
                     'Improved client conversion rates by 36.1% through optimized React.js solutions',
