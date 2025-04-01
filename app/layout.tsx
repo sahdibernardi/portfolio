@@ -46,17 +46,17 @@ export const metadata: Metadata = {
     ],
     colorScheme: "dark",
     openGraph: {
-        title: "Portfolio - Sahra Di Bernardi",
+        title: "Sahra Di Bernardi - Software Engineer",
         description:
-      "Sahra Di Bernardi is a full-stack Web Developer with a strong focus on front-end and user experience",
+      "Frontend Software Engineer, Next and React Specialist",
         url: "",
         siteName: "",
         images: [
             {
-                url: "./public/metadata.svg",
+                url: "graphimage.png",
                 width: 1200,
                 height: 630,
-                alt: "Sahra Di Bernardi",
+                alt: "Sahra Di Bernardi Software Engineer",
             },
         ],
         locale: "en-US",
@@ -66,10 +66,9 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "Sahra Di Bernardi",
         description:
-      "Sahra Di Bernardi is a Software Engineer specialized in React/Node development",
+      "Frontend Software Engineer and React Specialist",
         creator: "@sahdibernardi",
         creatorId: "0000000000",
-        images: ["./public/metadata.svg"],
     },
     robots: {
         index: true,
